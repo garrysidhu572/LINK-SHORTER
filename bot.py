@@ -21,7 +21,7 @@ from pyrogram import Client, filters
 API_ID = environ.get('API_ID')
 API_HASH = environ.get('API_HASH')
 BOT_TOKEN = environ.get('BOT_TOKEN')
-API_KEY = environ.get('API_KEY', '4b17f6a264b2bbe471bf6b71ae3cd28dfc36ae90')
+API_KEY = environ.get('API_KEY', '86519cf96859102b878b8ea02859d50a9e69f969')
 
 bot = Client('URLSHORTX',
              api_id=API_ID,
